@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  margin-top: 40px;
+  align-items: end;
+}
+.top_btn {
+  display: flex;
+  gap: 24px;
+}
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.contactForm form {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.form_controller {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+}
+.form_controller input {
+  height: 40px;
+  padding: 0 8px;
+}
+.form_controller label {
+  position: absolute;
+  top: -12px;
+  left: 10px;
+  background-color: white;
+  padding: 0 2px;
+  font-size: 14px;
+}
+textarea {
+  padding: 10px 2px;
+}
+.submitBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+button {
+  border-radius: 5px;
+  cursor: pointer;
+}
